@@ -4,7 +4,7 @@ import { TodoStatus } from '../../types/TodoStatus';
 
 type Props = {
   onSelectStatus: (status: TodoStatus) => void;
-  selectedStatus: string;
+  selectedStatus: TodoStatus;
 
   searchValue: string;
   onSearchValueChange: (searchValue: string) => void;
